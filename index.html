@@ -6,6 +6,61 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./hw-19/script.js"></script>
+    <button onclick="playGame('Кайчы')">Кайчы</button>
+    <button onclick="playGame('Кудук')">Кудук</button>
+    <button onclick="playGame('Кагаз')">Кагаз</button>
+
+    <p class="result"></p>
+    <p class="moves"></p>
+    <p class="js_total"></p>
+    <button
+      onclick="
+    totalResult.lose = 0
+    totalResult.win = 0
+    totalResult.nichya = 0
+    localStorage.removeItem('total');
+    showResultFromStorege();
+    "
+    >
+      Өчүр
+    </button>
+    <hr />
+    <!-- 7 -->
+    <button id="seventh">9a</button>
+    <hr />
+    <!-- 8 -->
+    <button id="js_button">Hello world</button>
+    <hr />
+    <!-- 9 -->
+    <button id="orel">Орел</button>
+    <button id="reshka">Решка</button>
+    <p id="resultt"></p>
+    <hr />
+    <!-- oor tapshyrma -->
+
+    <!-- Игра "Орёл или Решка"
+
+    let score = {
+     wins: 0,
+     losses: 0
+   }; -->
+   <button onclick="playGame1('Бүркүт')">Бүркүт</button>
+   <button onclick="playGame1('Куйруктар')">Куйруктар</button>
+
+   <p class="Jyiyntyk"></p>
+   <p class="movess"></p>
+   <p class="js_totall"></p>
+   <button
+     onclick="
+   totalResultt.losee = 0
+   totalResultt.winn = 0
+   localStorage.removeItem('totall');
+   showResultFromStoregee();
+   "
+   >
+     Өчүр
+   </button>
+   <hr>
+    <script src="./hw-20/script.js"></script>
 </body>
 </html>
