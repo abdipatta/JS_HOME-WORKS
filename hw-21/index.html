@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="on" onclick="changeButtonText()">ON</button>
+    <style>
+    .on{
+        width: 100px;
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+    }
+    .on:active{
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .extra-class{
+        background-color: red;
+    }
+</style>
+
+<hr>
+<hr>
+<hr>
+<input type="text" id="input" placeholder="write your name"/>
+<button id="submit">Submit</button>
+<p>Your name is: <span id="result"></span></p>
+<hr>
+<hr>
+<hr>
+<input type="text" id="input2" placeholder="write your name"/>
+<p>Your name is: <span id="result2"></span></p>
+<hr>
+<hr>
+<hr>
+<input type="text" id="input3" placeholder="write text" oninput="showInputValue()"/>
+<h5 class="heading"></h5>
+    <!-- <style>
+        .js-button {
+background-color: green;
+color: white;
+        };
+        .js-button:active{
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .extra-class{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+   /// 1 -->
+    <!-- <button id="js-button">Test</button>
+ ///2 -->
+    <!-- <hr>
+    <button id="elem" onclick="changeButtonText()">ON</button> -->
+<!-- 
+    <h1>Hello world</h1> -->
+
+    <!-- <style>
+        .js-button{
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+        }
+        .js-button:active{
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .extra-class{
+            background-color: gray;
+        }
+    </style>
+    <button onclick="changeButtonText('js-button')" class="js-button"> Subscribe</button>
+    <button onclick="changeButtonText('js-button-amazon')" class="js-button-amazon"> Subscribe</button>
+    <button onclick="changeButtonText('js-button-tweeter')" class="js-button-tweeter"> Subscribe</button>
+    
+    <hr>
+    <hr>
+    <hr>
+    <p>Если значение больше 40 +, если меньше 40 -1</p>
+    <input class="js-input" placeholder="write number" onkeyup="if(event.code==='Enter'){
+        calculate();
+    }"/>
+    <button class="calc" onmouseover="calculate()" >Calculate</button>
+    <p class="result"></p>
+
+    <hr>
+    <hr>
+    <hr>
+    <input type="text" class="input2" oninput="showInputValue()">
+    <h5 class="heading"></h5>
+
+    <button class="btn1">Click</button> -->
+    <!-- <p class="text"></p> -->
+    <script src="./script.js"></script>
+</body>
+</html>
